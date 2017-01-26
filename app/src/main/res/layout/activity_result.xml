@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hamonteroa.roshambo.ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_title_vertical_margin"
+
+        android:layout_centerHorizontal="true"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/roshambo_result"/>
+
+    <ImageView
+        android:id="@+id/result_imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        tools:src="@drawable/scissors_cut_paper"/>
+
+    <TextView
+        android:id="@+id/result_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/result_subtext_margin"
+
+        android:layout_below="@id/result_imageView"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textAlignment="center"
+        tools:text="TEXTO DE PRUEBA"/>
+
+    <Button
+        android:id="@+id/play_again_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:background="@android:color/white"
+
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:text="@string/play_again" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RoShamBo</string>
+    <string name="paper_rock_scissors_main_title">Paper - Rock - Scissors</string>
+    <string name="lets_play">Let\'s Play!</string>
+    <string name="roshambo_result">Roshambo Results!</string>
+    <string name="play_again">Play again</string>
+    <string name="preference_file_key">com.hamonteroa.roshambo.PREFERENCE_FILE_KEY</string>
+</resources>
